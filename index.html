@@ -19,24 +19,58 @@
     </head>
     <body>
 
-        <p>Add some content here...</p>
+	<h1>Web Development 9/3: Lists and Tables</h1>
+	
+	<h2>Lists</h2>
+	<ul>
+		<li>[ol] tag is for ordered lists (html automatically orders them), use [li] for each list item</li>
+		<li>html automatically orders the list, and spaces them</li>
+		<li>[ul] tag is for unordered lists, and use same [li] tag for list items</li>
+	</ul>
 
-        <h1>test</h1>
-        <h2>test</h2>
-        <h3>test</h3>
+	<p>Don't use tables to format what things look like (layout), problem is it doesn't adapt content to device you're on. Tables are good for data</p>
+
+
+
+	<h2>Tables</h2>
+	<ul>
+		<li>[tr] tag defines table / [th] table header / [td] table data</li>
+		<li>Can use [a href] tag to add attributes<br>
+			"href" lets you link to a website/email, "target" lets you set where the link opens (e.g. if target is blank then it will open in a new tab)<br>
+			Example: [a href="__mailto:emailaddress__" target="_blank"][/a]</li>
+		<li>Can also wrap image in a link<br>
+			Example: [a href="___link___"][img src="__imagelink__"][/a]</li>
+		<li>[div] tag can be used to make meaning out of your elements/wrap elements (e.g. in a resume, have title and date separated with [div] tags, eventually can use CSS to control) - See coding in example below</li>
+		<li>
+			<section class="experience">
+			<h4>Example: Company/Job Title</h4>
+			<div class="location">St. Louis, MO</div>
+			<div class="date">02/2009-Present</div>
+			</section>
+		</li>
+	</ul>	
+
+
+
+	<br><br>
+
+
 
         <table border="1">
             <tr>
-                <th>hello</th>
-                <th>hello</th>
-                <th>hello</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>email</th>
             </tr>
             <tr>
-                <td>testing</td>
-                <td>testing</td>
-                <td>testing</td>
+                <td>Katy</td>
+                <td>C</td>
+                <td>testing@wustl.edu</td>
             </tr>
         </table>
+	
+	<p>To practice image linking, below is an image that links to a fun food website</p>
+	<a href="http://www.seriouseats.com" target="_blank"><img src="http://placehold.it/350x150"></a>
 
 
 
