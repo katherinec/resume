@@ -1,0 +1,29 @@
+body{
+	background-color: #E5EBEF;
+}
+
+h2{
+	color: blue;
+}
+
+div{
+	background-color: ;
+}
+
+p.school{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.location{
+	border:0px solid blue;
+	margin: 0 0 0 1300px;
+}
+
+.date{
+	margin: 0 0 0 1300px;
+}
+
+.position{
+	font-style: italic;
+}
