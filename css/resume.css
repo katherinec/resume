@@ -1,29 +1,13 @@
 body{
-	background-color: #E5EBEF;
+	background-color: #B6D8F9;
+	margin-left: 20px;
 }
-
-h2{
-	color: blue;
+.resume{
+	color: black;
 }
-
-div{
-	background-color: ;
+.school{
+	font-style: italic;
 }
-
-p.school{
-	font-size: 14px;
-	font-weight: bold;
-}
-
-.location{
-	border:0px solid blue;
-	margin: 0 0 0 1300px;
-}
-
-.date{
-	margin: 0 0 0 1300px;
-}
-
 .position{
 	font-style: italic;
 }
