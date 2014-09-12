@@ -1,12 +1,25 @@
 body{
-	background-color: #B6D8F9;
+	background-color: #67798B;
 	margin-left: 20px;
 }
 .resume{
-	color: black;
+	color: white;
+	font-family: arial;
+}
+h3{
+	color: #59D9F5;
+	text-decoration: underline;
 }
 .school{
 	font-style: italic;
+}
+.description{
+	background-color: #7D96AD;
+	color: black;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 15px;
+	width: 1500px;
 }
 .position{
 	font-style: italic;
