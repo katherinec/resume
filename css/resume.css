@@ -6,6 +6,9 @@ body{
 	color: white;
 	font-family: arial;
 }
+h1{
+	text-align: center;	
+}
 h3{
 	color: #59D9F5;
 	text-decoration: underline;
